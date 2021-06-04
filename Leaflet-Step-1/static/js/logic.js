@@ -32,7 +32,7 @@ function createMap(earthquakes) {
 
     // Defining map layer
     var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/mfatih72/ck30rkku519fu1drmiimycohl/tiles/256/{z}/{x}/{y}?" + 
-    "access_token=pk.eyJ1Ijoia29uc3RhaiIsImEiOiJja3BlcHg0YmEwM3hjMnZxeHlmd2ZrY29rIn0.gbhyzmTECW5NbhJS2wPONg");
+    "access_token=API_KEY");
     
       // Defining base map
     var baseMaps = {
